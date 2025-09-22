@@ -1,0 +1,74 @@
+Lambda Execution Result (Latest Run):
+=== Experiment Errors ===
+
+File "/app/experiment.py", line 399
+
+print(f"✓ Average improvement over non-robust method: {avg_impro
+
+^
+
+SyntaxError: unterminated string literal (detected at line 399)
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "  File \"/app/experiment.py\", line 399\n    print(f\"\u2713 Average improvement over non-robust method: {avg_impro\n          ^\nSyntaxError: unterminated string literal (detected at line 399)\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 299.28 ms	Phase: init	Status: error	Error Type: Runtime.ExitError
+
+=== Experiment Errors ===
+
+File "/app/experiment.py", line 399
+
+print(f"✓ Average improvement over non-robust method: {avg_impro
+
+^
+
+SyntaxError: unterminated string literal (detected at line 399)
+
+{
+
+"experimentStatusCode": 500,
+
+"body": {
+
+"message": "Experiment failed",
+
+"returncode": 1,
+
+"stdout": "",
+
+"stderr": "  File \"/app/experiment.py\", line 399\n    print(f\"\u2713 Average improvement over non-robust method: {avg_impro\n          ^\nSyntaxError: unterminated string literal (detected at line 399)\n",
+
+"execution_time": null
+
+}
+
+}
+
+INIT_REPORT Init Duration: 54.57 ms	Phase: invoke	Status: error	Error Type: Runtime.ExitError
+
+START RequestId: 8b9165c4-ebc5-4f66-9182-3befe1e09be0 Version: $LATEST
+
+RequestId: 8b9165c4-ebc5-4f66-9182-3befe1e09be0 Error: Runtime exited without providing a reason
+Runtime.ExitError
+
+END RequestId: 8b9165c4-ebc5-4f66-9182-3befe1e09be0
+
+REPORT RequestId: 8b9165c4-ebc5-4f66-9182-3befe1e09be0	Duration: 56.65 ms	Billed Duration: 57 ms	Memory Size: 3008 MB	Max Memory Used: 12 MB	
+
